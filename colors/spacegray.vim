@@ -15,7 +15,7 @@ set background=dark
 let colors_name = 'spacegray'
 
 " Colorscheme definitions {{{1
-hi Normal          ctermbg=233  ctermfg=250    guibg=#111314  guifg=#B3B8C4  cterm=NONE      gui=NONE
+hi Normal          ctermbg=233  ctermfg=250    guibg=#20242D  guifg=#B3B8C4  cterm=NONE      gui=NONE
 hi Conceal         ctermbg=NONE ctermfg=250    guibg=NONE     guifg=#B3B8C4  cterm=NONE      gui=NONE
 
 hi Comment         ctermbg=NONE ctermfg=59     guibg=NONE     guifg=#515F6A  cterm=NONE      gui=NONE
