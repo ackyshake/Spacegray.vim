@@ -117,7 +117,6 @@ else
 endif
 
 hi TabLine         ctermbg=232  ctermfg=249    guibg=#141617  guifg=#B3B8C4  cterm=NONE      gui=NONE
-hi TabLineFill     ctermbg=235  ctermfg=239    guibg=#303537  guifg=#303537  cterm=NONE      gui=NONE
 hi TabLineSel      ctermbg=145  ctermfg=0      guibg=#7D8FA3  guifg=#111314  cterm=NONE      gui=NONE
 
 hi Directory       ctermbg=NONE ctermfg=24     guibg=NONE     guifg=#5FAFAF  cterm=NONE      gui=NONE
@@ -159,7 +158,8 @@ hi link SpecialChar         Special
 hi link SpecialComment      Special
 hi link Tag                 Special
 
-hi link VertSplit           StatusLineNC
+hi! link VertSplit          StatusLineNC
+hi! link TabLineFill        StatusLineNC
 
 " HTML
 hi link htmlEndTag          htmlTagName
